@@ -1,0 +1,56 @@
+{
+    "header": {
+      "title": "Bem-vindo ao React"
+    },
+    "home": {
+      "description": "Para começar, edite o arquivo <code>src/App.js</code> e salve para atualizar."
+    },
+
+    "qtd_racao" : "Quantidade de ração no pote(g)",
+    "qtd_agua" : "Quantidade de água no pote(g)",
+    "despejar_agua" : "Despejar Água",
+    "despejar_racao" : "Despejar Ração",
+    "reabastecer_agua" : "Reabasteça o Reservatório de Água",
+    "reabastecer_racao" : "Reabasteça o Reservatório de Ração",
+    "nome" : "Nome",
+    "horários" : "Horários",
+    "quantidade" : "Quantidade(g)",
+    "movimento_agua" : "Movimento Água",
+    "ativo" : "Ativo",
+    "ativar" : "Ativar",
+    "deletar" : "Deletar",
+    "noconfig" : "Nenhuma configuração ativa",
+    "ativarconfig" : "Ativar uma configuração",
+    "novaconfig" : "Nova Configuração",
+    
+    "monitor" : "Monitor",
+    "configuracao" : "Configurações",
+    "recomendacoes" : "Recomendações",
+    "usuario" : "Usuário",
+    "sair" : "Sair",
+    "ola" : "Olá, ",
+
+    "criarUsuario" : "Criar Usuário",
+    "senha" : "Senha",
+    "adicionarUsuario" : "Adicionar Usuário",
+
+    "entrar" : "Entrar",
+
+    "criarConfiguracao" : "Criar Configuração",
+    "horario" : "Horário",
+    "adicionarHorario" : "Adicionar Horário",
+    "salvar" : "Salvar",
+    "cancelar" : "Cancelar",
+
+    "textoGato" : "",
+    "textoCachorro" : "Caso o seu animal de estimação tenha mais de 1 ano de idade é importante que ele coma 2 vezes ao dia variando a quantidade de ração em gramas por dia de acordo com o seu peso, confira a tabela a seguir:",
+    "cao" : "Cães",
+    "gato" : "Gatos",
+    "recomendacoespet" : "Recomendações para o seu PET"
+
+    
+
+  }
+
+  
+  

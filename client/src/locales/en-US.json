@@ -1,0 +1,49 @@
+{
+    "header": {
+      "title": "Welcome to React"
+    },
+    "home": {
+      "description": "To get started, edit <code>{arquivo}</code> and save to reload."
+    },
+    
+    "qtd_racao" : "Amount of feed in the pot(oz)",
+    "qtd_agua" : "Amount of water in the pot(oz)",
+    "despejar_agua" : "Dump Water",
+    "despejar_racao" : "Dump Feed",
+    "reabastecer_agua" : "Refill the Water Reservoir",
+    "reabastecer_racao" : "Refill the Feed Reservoir",
+    "nome" : "Name",
+    "horários" : "Schedules",
+    "quantidade" : "Amount(oz)",
+    "movimento_agua" : "Water Movement",
+    "ativo" : "Active",
+    "ativar" : "Activate",
+    "deletar" : "Delete",
+    "noconfig" : "No active configuration",
+    "ativarconfig" : "Activate a configuration",
+    "novaconfig" : "New Configuration",
+
+    "monitor" : "Monitor",
+    "configuracao" : "Configurations",
+    "recomendacoes" : "Recommendations",
+    "usuario" : "User",
+    "sair" : "Exit",
+    "ola" : "Hello, ",
+
+    "criarUsuario" : "Create User",
+    "senha" : "Password",
+    "adicionarUsuario" : "Add User",
+
+    "entrar" : "Login",
+
+    "criarConfiguracao" : "Create configuration",
+    "horario" : "Schedule",
+    "adicionarHorario" : "Add Schedule",
+    "salvar" : "Save",
+    "cancelar" : "Cancel",
+
+    "textoCachorro" : "If your pet is over 1 year old, it is important that he eats 2 times a day, varying the amount of feed in grams per day according to his weight, check the table below:"
+
+
+
+  }

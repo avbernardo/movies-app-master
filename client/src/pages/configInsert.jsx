@@ -204,7 +204,7 @@ class configInsert extends Component {
               onChange={this.handleShareholderQuantidadeChange(idx)}
             />
             </div>
-            <div style = {{width : "10%" , float : "center" , marginLeft : "1090px"}}>
+            <div style = {{width : "10%" , float : "center" , marginLeft : "96%"}}>
             <Button
               type="button"
               onClick={this.handleRemoveShareholder(idx)}

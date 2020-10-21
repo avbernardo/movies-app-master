@@ -200,18 +200,20 @@ class Monitor extends Component {
             
             {
                 Header: texto.nome,
-                width : 150,
+                width : 130,
                 accessor: 'nome_configuracao',
                 Cell : row => <div style={{ textAlign: "center" }}>{row.value}</div>
             },
             {
                 Header: texto.horários,
                 accessor: 'alimentado',
+                width: 400,
                 Cell: props => <div style = {{textAlign : "center"}}><span>{horario.join(' - ') }</span></div> 
                 //Cell : row => <div style={{ textAlign: "center" }}>{row.value}</div>
             },
             {
                 Header: texto.quantidade,
+                width : 400,
                 accessor: 'alimentacao',
                 Cell: row => <div style = {{textAlign : "center"}}><span>{(configuracoes[row.index].horario_quantidade_alimentacao.map(function(qtal){var aux =(qtal.quantidade_alimentacao) 
                     if(getUserLocale()=='en-US'){
@@ -245,19 +247,19 @@ class Monitor extends Component {
             
             {
                 
-                width : 150,
+                width : 130,
             },
             {
-
+                width: 400,
                 accessor: 'alimentado',
                 Cell: function(props){
                         return(
                           
-                               <div style = {{textAlign : "center"  , margin : "10px"}}>
+                               <div style = {{textAlign : "center"}}>
                                    {configuracoes[0].alimentado.map(al => al  ? 
-                               <FcCheckmark size = {20}/>
+                               <FcCheckmark size = {20} style = {{margin : "0% 4%"}}/>
                                    : 
-                               <VscError size = {20} style = {{color : "red"}}/>
+                               <VscError size = {20} style = {{color : "red" , margin : "0% 4%"}}/>
                                )}
                                
                                </div>
@@ -266,7 +268,7 @@ class Monitor extends Component {
                 },
             },
             {
-                
+                width: 400,
             },
             {
                 width : 150,
@@ -301,7 +303,7 @@ class Monitor extends Component {
                     if(reabastecer_racao === true){
                         return(
                         <div style = {{textAlign : 'center'}}>
-                            <Blink color = "red" text = {texto.reabastecer_racao} fontSize = '20px'></Blink>
+                            <Blink color = "red" text = {texto.reabastecer_racao} fontSize = '90%'></Blink>
                          </div> 
                         )
                     }else{
@@ -316,12 +318,12 @@ class Monitor extends Component {
             {
                 
                 acessor: 'movimento_agua',
-               
+               width : 100,
                 Cell: function(props){
                     if(reabastecer_agua === true){
                         return(
                         <div style = {{textAlign : 'center'}}>
-                            <Blink color = "red" text = {texto.reabastecer_agua} fontSize = '20px'></Blink>
+                            <Blink color = "red" text = {texto.reabastecer_agua} fontSize = '90%'></Blink>
                          </div> 
                         )
                     }else{

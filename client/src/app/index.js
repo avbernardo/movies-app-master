@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import intl from 'react-intl-universal'
 import { NavBar } from '../components'
 import { monitor , configInsert, MoviesUpdate , recomendacoes , Usuario , configuracoesList , Login} from '../pages'
+import '../style/estilo.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 const locales = {
